@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.QRISSoundbox" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#1E1E1E</item>
+        <item name="colorPrimaryVariant">#121212</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#424242</item>
+        <item name="colorSecondaryVariant">#2C2C2C</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">#AAAAAA</item>
+    </style>
+</resources>

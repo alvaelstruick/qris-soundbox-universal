@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.qris.soundbox.app-merged_res-31:/drawable_status_background.xml.flat",
+        "source": "com.qris.soundbox.app-main-33:/drawable/status_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-merged_res-31:\\drawable_status_background.xml.flat",
+        "source": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-main-33:\\drawable\\status_background.xml"
+    },
+    {
+        "merged": "com.qris.soundbox.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.qris.soundbox.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.qris.soundbox.app-merged_res-31:/drawable_log_background.xml.flat",
+        "source": "com.qris.soundbox.app-main-33:/drawable/log_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-merged_res-31:\\drawable_log_background.xml.flat",
+        "source": "C:\\Users\\HYPE AMD\\.gradle\\daemon\\8.2\\com.qris.soundbox.app-main-33:\\drawable\\log_background.xml"
+    }
+]

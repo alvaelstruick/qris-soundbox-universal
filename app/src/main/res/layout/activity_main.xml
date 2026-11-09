@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#121212">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔊 QRIS SOUNDBOX"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifikasi Pembayaran Real-time"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checking status..."
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/status_background"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktifkan Notification Access"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+        
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🔊 Test Audio"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🗑️ Clear Log"
+            android:layout_marginStart="8dp"/>
+    
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Transaksi:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/log_background">
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#E0E0E0"
+            android:fontFamily="monospace"
+            android:padding="8dp"/>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Tips: Suara keluar dari speaker perangkat, Bluetooth, atau jack audio. Pastikan volume media nyala."
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="#2C2C2C"
+        android:textColor="#FFA726"/>
+
+</LinearLayout>
+
+</ScrollView>
